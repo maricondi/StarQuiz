@@ -1,0 +1,69 @@
+.container-layout {
+    margin-left: 350px;
+}
+
+.container-about {
+    padding: 10% 0% 25% 35%;
+    font-size: 18px;
+    color: #404040;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 25px;
+}
+/* Contact */
+
+.contact-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 30px;
+}
+
+.contact-subtitle {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-body a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #404040;
+}
+
+.contact-body li {
+    list-style-type: none;
+}
+
+/* Intro */
+.intro-text {
+    color: #404040;
+    text-align: left;
+    font-size: 16px;
+    padding: 0 0 30px 10%;
+
+}
+.intro-start-btn {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #3973ac;
+    width: 100%;
+    height: 50px;
+
+}
+
+
