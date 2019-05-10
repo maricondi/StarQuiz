@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import {Card, Button, Modal, Input} from "antd";
 import * as dataSource from '../source/dataSource';
-import img from '../assets/images/intro/starwarsIntro.jpg';
 import { dispatchSaveChar, dispatchAddPoints } from '../redux/actions/chars';
 import { dispatchStopQuiz } from '../redux/actions/quiz'
 
@@ -183,22 +182,24 @@ class CardList extends Component {
         if (storePoints > 0 && finishedQuiz) {
             localStorage.setItem('points', JSON.stringify(storePoints));
         }
+        console.log(storeChar)
 
         return (
             <div>
                 <div className={'container-layout'}>
+                    <div style={{ fontSize: '18px', margin: '50px 150px 30px 30px', textAlign: 'center' }}><b>Como jogar: </b>Para jogar basta descobrir os nomes dos personagens abaixo preenchendo o campo no botão "Responder" ganhando 10 pontos por responsta correta sem ajuda das dicas, use as dicas com sabedoria, boa sorte</div>
                     <div className={'grid-container'}>
-                    {storeChar.map(char => (
+                    {storeChar.map((char, index) => (
                         <div key={char.name}>
                             <Card
-                                cover={<img src={img} alt='my image' />}
+                                cover={<img style={{ height: '350px' }} src={require(`../assets/images/personagens/${index}.jpg`)} alt='my image' />}
                                 className={'grid-item'}
                                 style={{ width: '95%' }}
                             >
 
                                 <div hidden={!char.answered} style={{ color: '#444444', textAlign: 'center', fontSize: '16px' }}><b>Cartão Respondido</b></div>
-                                <Button type={"primary"} style={{ marginLeft: '25%' }} hidden={char.answered} onClick={() => this.showModalResponse(char.name)}><b>?</b></Button>
-                                <Button type={"default"} style={{ marginLeft: '20px' }} hidden={char.answered} onClick={() => this.showModalDetails(char)}><b>...</b></Button>
+                                <Button type={"primary"} style={{ marginLeft: '10%' }} hidden={char.answered} onClick={() => this.showModalResponse(char.name)}><b>Responder</b></Button>
+                                <Button type={"danger"} style={{ marginLeft: '10px' }} hidden={char.answered} onClick={() => this.showModalDetails(char)}><b>Dicas (-5 pontos)</b></Button>
                             </Card>
                         </div>
                     ))}
