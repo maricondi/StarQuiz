@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import { dispatchStopQuiz } from '../redux/actions/quiz';
+import { dispatchClearPoints } from '../redux/actions/points';
 import { Menu, Icon, Button, Layout, Modal } from 'antd';
 
 
@@ -43,13 +44,14 @@ class MenuLayout extends Component {
 
     handleCancelQuiz = () => {
         const { route } = this.state;
-        const { stopQuiz, history } = this.props;
+        const { stopQuiz, clearPoints, history } = this.props;
 
         this.setState({
             visible: false
         });
 
         stopQuiz();
+        clearPoints();
         history.push(route);
     };
 
@@ -112,7 +114,8 @@ const mapStateToProps = store => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    stopQuiz: dispatchStopQuiz.bind(null, dispatch)
+    stopQuiz: dispatchStopQuiz.bind(null, dispatch),
+    clearPoints: dispatchClearPoints.bind(null, dispatch)
 });
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(MenuLayout));

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31b34723-f107-41e9-b0c5-e9f91039e461" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/action-types/points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/points.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/MenuLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MenuLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/CardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action-types/chars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action-types/chars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/chars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/chars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/chars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/chars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/CardList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="189" column="126" selection-start-line="189" selection-start-column="126" selection-end-line="189" selection-end-column="126" />
+            <state relative-caret-position="111">
+              <caret line="199" column="74" selection-start-line="199" selection-start-column="74" selection-end-line="199" selection-end-column="74" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -29,19 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/styles/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/MenuLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+            <state relative-caret-position="1176">
+              <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,22 +50,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/action-types/quiz.js">
+        <entry file="file://$PROJECT_DIR$/src/redux/reducers/points.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+        <entry file="file://$PROJECT_DIR$/src/redux/actions/chars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/actions/points.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -73,20 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/reducers/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/MyPoints.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -100,18 +94,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Intro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -120,7 +102,6 @@
       <find>showModa</find>
       <find>varFilms</find>
       <find>names</find>
-      <find>tempCharName</find>
       <find>points</find>
       <find>locals</find>
       <find>handleFinishedQuiz</find>
@@ -132,6 +113,15 @@
       <find>seti</find>
       <find>setItem</find>
       <find>finishedQuiz</find>
+      <find>handleOkFinished</find>
+      <find>hys</find>
+      <find>histo</find>
+      <find>route</find>
+      <find>inp</find>
+      <find>tempCharName</find>
+      <find>handleOkResponse</find>
+      <find>addPoint</find>
+      <find>storePoints</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,19 +141,22 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/redux/actions/quiz.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/quiz.js" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/utils/imageMap.js" />
-        <option value="$PROJECT_DIR$/src/redux/action-types/chars.js" />
-        <option value="$PROJECT_DIR$/src/redux/actions/chars.js" />
-        <option value="$PROJECT_DIR$/src/pages/Intro.js" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/chars.js" />
         <option value="$PROJECT_DIR$/src/pages/About.js" />
         <option value="$PROJECT_DIR$/src/assets/styles/layout.css" />
         <option value="$PROJECT_DIR$/src/layout/FooterLayout.js" />
         <option value="$PROJECT_DIR$/src/pages/Home.js" />
-        <option value="$PROJECT_DIR$/src/layout/MenuLayout.js" />
         <option value="$PROJECT_DIR$/src/pages/MyPoints.js" />
         <option value="$PROJECT_DIR$/src/utils/images.js" />
+        <option value="$PROJECT_DIR$/src/pages/Intro.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/chars.js" />
+        <option value="$PROJECT_DIR$/src/redux/action-types/chars.js" />
+        <option value="$PROJECT_DIR$/src/redux/action-types/points.js" />
+        <option value="$PROJECT_DIR$/src/redux/actions/chars.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/points.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/actions/points.js" />
+        <option value="$PROJECT_DIR$/src/layout/MenuLayout.js" />
         <option value="$PROJECT_DIR$/src/pages/CardList.js" />
       </list>
     </option>
@@ -180,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,34 +185,6 @@
               <item name="star-quiz" type="b2602c69:ProjectViewProjectNode" />
               <item name="star-quiz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="personagens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="star-quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="star-quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="star-quiz" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +229,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,18 +275,21 @@
       <workItem from="1557285348238" duration="7812000" />
       <workItem from="1557336105240" duration="9602000" />
       <workItem from="1557354198811" duration="59123000" />
-      <workItem from="1557445628251" duration="4843000" />
+      <workItem from="1557445628251" duration="5848000" />
+      <workItem from="1557501356590" duration="370000" />
+      <workItem from="1557511984636" duration="589000" />
+      <workItem from="1557714650166" duration="15041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88527000" />
+    <option name="totallyTimeSpent" value="105532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18083462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19474497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -335,7 +303,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23289903" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24592833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,38 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/personagens/0.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/imageMap.js" />
-    <entry file="file://$PROJECT_DIR$/src/redux/action-types/chars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/chars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/chars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -444,13 +384,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/FooterLayout.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/images.js" />
+    <entry file="file://$PROJECT_DIR$/src/redux/action-types/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -461,26 +399,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/MenuLayout.js">
+    <entry file="file://$PROJECT_DIR$/src/layout/FooterLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+        <state relative-caret-position="240">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action-types/quiz.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/MyPoints.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="405">
           <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -488,20 +429,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/quiz.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/Intro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MyPoints.js">
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/chars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        <state>
+          <caret column="44" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action-types/chars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action-types/points.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/chars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -512,27 +487,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Intro.js">
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/points.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/MenuLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/images.js">
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/points.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        <state relative-caret-position="315">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/CardList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="189" column="126" selection-start-line="189" selection-start-column="126" selection-end-line="189" selection-end-column="126" />
+        <state relative-caret-position="111">
+          <caret line="199" column="74" selection-start-line="199" selection-start-column="74" selection-end-line="199" selection-end-column="74" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

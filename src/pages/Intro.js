@@ -10,7 +10,7 @@ import introImg from '../assets/images/intro/starwarsIntro.jpg';
 class Intro extends Component {
 
     async componentDidMount() {
-        const { saveChar } = this.props
+        const { saveChar } = this.props;
         const response = await dataSource.get('https://swapi.co/api/people/');
         const newCharacters = [];
 

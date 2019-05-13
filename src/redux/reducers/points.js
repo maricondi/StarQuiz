@@ -1,17 +1,11 @@
-import { SAVE_CHAR, ADD_POINTS, CLEAR_POINTS } from '../action-types/chars'
+import { ADD_POINTS, CLEAR_POINTS } from '../action-types/points'
 
 const initialState = {
-    character: [],
     points: 0
 };
 
-export const chars = (state = initialState, action) => {
+export const points = (state = initialState, action) => {
     switch (action.type) {
-        case SAVE_CHAR:
-            return {
-                ...state,
-                character: action.payload
-            };
         case ADD_POINTS:
             return {
                 ...state,
